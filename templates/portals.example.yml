@@ -40,25 +40,13 @@ title_filter:
     - "MLOps"
     - "Voice AI"
     - "Conversational AI"
-    - "Speech"
-    # -- German AI/ML keywords (DACH market) --
-    - "KI"
-    - "Künstliche Intelligenz"
-    - "KI Engineer"
-    - "KI Trainer"
-    - "Dozent"
-    - "Weiterbildung"
     # -- Engineering roles --
-    - "Platform Engineer"
     - "Solutions Architect"
-    - "Solutions Engineer"
-    - "Forward Deployed"
-    - "Deployed Engineer"
-    - "Customer Engineer"
-    - "Integration Engineer"
+    - "Member of Technical Staff"
     # -- Product roles --
     - "Product Manager"
     - "Technical PM"
+    - "Forward Deployed Product Manager"
     # -- Automation roles --
     - "Automation"
     - "Hyperautomation"
@@ -140,18 +128,18 @@ search_queries:
     query: 'site:apply.workable.com "AI" "Product Manager" OR "Solutions Architect" OR "AI Engineer" remote'
     enabled: true
 
-  # -- No-Code / Low-Code / Automation --
-  - name: Ashby — No-Code & Automation
-    query: 'site:jobs.ashbyhq.com "no-code" OR "low-code" OR "automation engineer" OR "n8n" OR "Make" OR "Airtable" remote senior'
-    enabled: true
+  # # -- No-Code / Low-Code / Automation --
+  # - name: Ashby — No-Code & Automation
+  #   query: 'site:jobs.ashbyhq.com "no-code" OR "low-code" OR "automation engineer" OR "n8n" OR "Make" OR "Airtable" remote senior'
+  #   enabled: true
 
-  - name: Greenhouse — No-Code & Automation
-    query: 'site:job-boards.greenhouse.io "no-code" OR "low-code" OR "automation engineer" OR "business systems" senior remote'
-    enabled: true
+  # - name: Greenhouse — No-Code & Automation
+  #   query: 'site:job-boards.greenhouse.io "no-code" OR "low-code" OR "automation engineer" OR "business systems" senior remote'
+  #   enabled: true
 
-  - name: GTM Engineer — All portals
-    query: '"GTM Engineer" OR "RevOps Engineer" OR "Growth Engineer" automation Airtable OR Make OR Clay remote'
-    enabled: true
+  # - name: GTM Engineer — All portals
+  #   query: '"GTM Engineer" OR "RevOps Engineer" OR "Growth Engineer" automation Airtable OR Make OR Clay remote'
+  #   enabled: true
 
   # -- Voice AI & Conversational AI --
   - name: Voice AI — FDE & SA
